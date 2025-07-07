@@ -1,5 +1,8 @@
 # stLearn-tutorials
-Tutorials used for stLearn documentation
+Tutorials used for stLearn documentation.
+
+## Setup
+* Make sure you have ```git lfs``` installed and inited as there are some large files in annotations.
 
 ## Conda Environment
 
