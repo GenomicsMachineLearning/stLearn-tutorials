@@ -23,7 +23,7 @@ pip install -e /path/to/your/package/directory
 OR
 
 ```commandline
-python -m pip install --use-pep517 stlearn==1.1.6
+python -m pip install --use-pep517 stlearn==1.2.1
 ```
 
 ### Remove
