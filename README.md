@@ -9,21 +9,24 @@ Tutorials used for stLearn documentation.
 ### Create
 
 ```commandline
-conda create --prefix [some-directory]/conda/stlearn python=3.12 --y
+conda create --prefix [some-directory]/conda/stlearn python=3.12 cmake --y
 conda activate stlearn
 conda install -c conda-forge jupyter libconfig fontconfig freetype libtiff r-irkernel  --y
-BEZIER_NO_EXTENSION=true python -m pip install --use-pep517 notebook tensorflow==2.20.0 keras==3.11.3 numpy==1.26.4 pandas==2.3.3 scanpy==1.11.4 leidenalg==0.10.2 louvain==0.8.2 numba==0.62.1 pillow==11.3.0 scikit-image==0.22.0 imageio==2.37.0 scipy==1.16.2 scikit-learn==1.7.2
-python -m pip install --use-pep517 papermill
 ```
 
+Install stlearn:
 ```commandline
-pip install -e /path/to/your/package/directory
+pip install -e /path/to/stlearn/directory
 ```
 
 OR
 
 ```commandline
 python -m pip install --use-pep517 stlearn==1.2.1
+```
+
+
+python -m pip install --use-pep517 papermill
 ```
 
 ### Remove
