@@ -25,7 +25,7 @@ OR
 python -m pip install --use-pep517 stlearn==1.2.1
 ```
 
-
+```commandline
 python -m pip install --use-pep517 papermill
 ```
 
