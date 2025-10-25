@@ -10,7 +10,7 @@ Tutorials used for stLearn documentation.
 
 ```commandline
 conda create --prefix [some-directory]/conda/stlearn python=3.12 cmake --y
-conda activate stlearn
+conda activate [some-directory]/conda/stlearn
 conda install -c conda-forge jupyter libconfig fontconfig freetype libtiff r-irkernel  --y
 ```
 
