@@ -22,7 +22,7 @@ pip install -e /path/to/stlearn/directory
 OR
 
 ```commandline
-python -m pip install --use-pep517 stlearn==1.2.1
+python -m pip install --use-pep517 stlearn==1.2.2
 ```
 
 ```commandline
