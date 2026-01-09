@@ -29,6 +29,15 @@ python -m pip install --use-pep517 stlearn==1.2.2
 python -m pip install --use-pep517 papermill
 ```
 
+### Running
+
+Witht the stlearn conda enviroment activate run:
+```commandline
+process.sh
+```
+
+The upload expects a zip file called "tutorials.zip" with notebooks in the tutorials directory.
+
 ### Remove
 
 ```commandline
