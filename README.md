@@ -26,7 +26,7 @@ python -m pip install --use-pep517 stlearn==1.3.0
 ```
 
 ```commandline
-python -m pip install --use-pep517 papermill harmonypy
+python -m pip install --use-pep517 papermill harmonypy==0.2.0
 ```
 
 ### Running
