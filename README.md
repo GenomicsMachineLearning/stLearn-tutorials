@@ -9,9 +9,9 @@ Tutorials used for stLearn documentation.
 ### Create
 
 ```commandline
-conda create --prefix [some-directory]/conda/stlearn python=3.12 cmake --y
+conda create --prefix [some-directory]/conda/stlearn python=3.12 --y
 conda activate [some-directory]/conda/stlearn
-conda install -c conda-forge jupyter libconfig fontconfig freetype libtiff r-irkernel  --y
+conda install -c conda-forge cmake jupyter libconfig fontconfig freetype libtiff r-irkernel  --y
 ```
 
 Install stlearn:
@@ -22,11 +22,11 @@ pip install -e /path/to/stlearn/directory
 OR
 
 ```commandline
-python -m pip install --use-pep517 stlearn==1.2.2
+python -m pip install --use-pep517 stlearn==1.3.0
 ```
 
 ```commandline
-python -m pip install --use-pep517 papermill
+python -m pip install --use-pep517 papermill harmonypy==0.2.0
 ```
 
 ### Running
