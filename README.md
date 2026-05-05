@@ -1,4 +1,4 @@
-# stLearn-tutorials
+    q# stLearn-tutorials
 Tutorials used for stLearn documentation.
 
 ## Setup
@@ -22,7 +22,7 @@ pip install -e /path/to/stlearn/directory
 OR
 
 ```commandline
-python -m pip install --use-pep517 stlearn==1.3.0
+python -m pip install --use-pep517 stlearn==1.4.0
 ```
 
 ```commandline
