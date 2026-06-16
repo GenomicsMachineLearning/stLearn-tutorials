@@ -11,18 +11,17 @@ Tutorials used for stLearn documentation.
 ```commandline
 conda create --prefix [some-directory]/conda/stlearn python=3.12 --y
 conda activate [some-directory]/conda/stlearn
-conda install -c conda-forge cmake jupyter libconfig fontconfig freetype libtiff r-irkernel  --y
 ```
 
 Install stlearn:
 ```commandline
-pip install -e /path/to/stlearn/directory
+pip install -e "/path/to/stlearn/directory[jupyter]"
 ```
 
 OR
 
 ```commandline
-python -m pip install --use-pep517 stlearn==1.3.0
+python -m pip install --use-pep517 stlearn==1.4.1
 ```
 
 ```commandline
