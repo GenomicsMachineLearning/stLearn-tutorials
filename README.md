@@ -21,7 +21,7 @@ pip install -e "/path/to/stlearn/directory[jupyter]"
 OR
 
 ```commandline
-python -m pip install --use-pep517 stlearn==1.4.1
+python -m pip install --use-pep517 stlearn==2.0.0
 ```
 
 ```commandline
